@@ -22,6 +22,11 @@ Page({
       url: '../map/map',
     })
   },
+  bindBarViewTap() {
+    wx.navigateTo({
+      url: '../bar/bar',
+    })
+  },
   onLoad() {
     // @ts-ignore
     if (wx.getUserProfile) {

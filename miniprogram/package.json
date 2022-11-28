@@ -7,6 +7,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "echarts": "5.1.2",
     "echarts-for-weixin": "^1.0.2",
     "miniprogram-sm-crypto": "^0.3.11",
     "qqmap-wx-jssdk": "^1.0.0",
