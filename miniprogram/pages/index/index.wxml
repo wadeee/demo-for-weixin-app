@@ -21,3 +21,7 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
+
+<view class="box">
+  <t-button t-class="external-class" theme="primary" block bindtap="bindMapViewTap">地图</t-button>
+</view>

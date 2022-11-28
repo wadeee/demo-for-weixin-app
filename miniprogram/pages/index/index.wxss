@@ -17,3 +17,11 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.box {
+  margin: 0 32px;
+}
+
+.external-class {
+  margin-top: 20px;
+}

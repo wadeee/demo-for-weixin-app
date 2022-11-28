@@ -17,6 +17,11 @@ Page({
       url: '../logs/logs',
     })
   },
+  bindMapViewTap() {
+    wx.navigateTo({
+      url: '../map/map',
+    })
+  },
   onLoad() {
     // @ts-ignore
     if (wx.getUserProfile) {
