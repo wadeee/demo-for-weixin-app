@@ -10,6 +10,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "miniprogram-api-typings": "3.6.0"
+    "miniprogram-api-typings": "^3.6.0"
   }
 }
