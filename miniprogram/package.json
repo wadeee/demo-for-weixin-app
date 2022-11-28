@@ -8,5 +8,8 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "miniprogram-sm-crypto": "^0.3.11",
+    "qqmap-wx-jssdk": "^1.0.0",
+    "tdesign-miniprogram": "^0.27.0"
   }
 }
