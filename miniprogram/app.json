@@ -1,9 +1,34 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/map/map",
-    "pages/bar/bar",
-    "pages/logs/logs"
+    "pages/tabBar/index/index",
+    "pages/tabBar/demo/index",
+    "pages/logs/index"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/tabBar/index/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/tabBar/demo/index",
+      "iconPath": "image/icon_component.png",
+      "selectedIconPath": "image/icon_component_HL.png",
+      "text": "DEMO"
+    }]
+  },
+  "subPackages": [
+    {
+      "root": "pages/demo/",
+      "pages": [
+        "pages/map/index",
+        "pages/bar/index"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",

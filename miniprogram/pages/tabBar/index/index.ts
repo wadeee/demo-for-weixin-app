@@ -14,17 +14,7 @@ Page({
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({
-      url: '../logs/logs',
-    })
-  },
-  bindMapViewTap() {
-    wx.navigateTo({
-      url: '../map/map',
-    })
-  },
-  bindBarViewTap() {
-    wx.navigateTo({
-      url: '../bar/bar',
+      url: '../../logs/index',
     })
   },
   onLoad() {
