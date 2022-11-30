@@ -3,7 +3,7 @@ import * as echarts from 'echarts';
 let chart = null;
 
 function initChart(canvas: any, width: any, height: any, dpr: any) {
-  chart = echarts.init(canvas, null, {
+  chart = echarts.init(canvas, undefined, {
     width: width,
     height: height,
     devicePixelRatio: dpr // new
