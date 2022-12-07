@@ -12,6 +12,11 @@ Page({
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
   },
   // 事件处理函数
+  bindMap1ViewTap() {
+    wx.navigateTo({
+      url: '../../demo/pages/map1/index',
+    })
+  },
   bindMapViewTap() {
     wx.navigateTo({
       url: '../../demo/pages/map/index',

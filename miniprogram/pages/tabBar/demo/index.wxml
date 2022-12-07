@@ -2,4 +2,5 @@
 <view class="box">
   <t-button t-class="external-class" theme="primary" block bindtap="bindMapViewTap">地图</t-button>
   <t-button t-class="external-class" theme="primary" block bindtap="bindBarViewTap">柱状图</t-button>
+  <t-button t-class="external-class" theme="primary" block bindtap="bindMap1ViewTap">地图1</t-button>
 </view>

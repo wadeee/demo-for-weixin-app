@@ -25,6 +25,7 @@
     {
       "root": "pages/demo/",
       "pages": [
+        "pages/map1/index",
         "pages/map/index",
         "pages/bar/index"
       ]
@@ -33,7 +34,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "Demo",
     "navigationBarTextStyle": "black"
   },
   "lazyCodeLoading": "requiredComponents",
