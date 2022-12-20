@@ -25,6 +25,7 @@
     {
       "root": "pages/demo/",
       "pages": [
+        "pages/map_polygon/index",
         "pages/map1/index",
         "pages/map/index",
         "pages/bar/index"
